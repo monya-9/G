@@ -1,4 +1,4 @@
-package G7W;
+package G7L;
 
 class Point{
 	private int x, y;

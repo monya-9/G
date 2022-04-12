@@ -1,4 +1,4 @@
-package G7W;
+package G7L;
 
 class Time {
 	private int hour;
