@@ -14,16 +14,16 @@ public class Star1 {
 		inputNumber = scan.nextInt();
 
 		center = inputNumber - 1;
-
+		cnt = inputNumber;
 		for (int i = 0; i < inputNumber; i++) {
 			for (int j = 0; j < inputNumber * 2 - 1; j++) {
 				if (j > center - cnt && j < center + cnt)
 					System.out.print("*");
 				else
-					System.out.print(".");
+					System.out.print(" ");
 			}
 			System.out.println();
-			cnt++;
+			cnt--;
 		}
 	}
 }
