@@ -1,4 +1,4 @@
-package G9W;
+package G9L;
 
 class Shape{
 	public Shape() {
